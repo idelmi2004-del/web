@@ -479,7 +479,7 @@ async function toggleLines() {
       return;
     }
 
-    const geojsonUrl = "lines.geojson";
+    const geojsonUrl = "liness.geojson";
     console.log("Загружаю линии:", geojsonUrl);
 
     const response = await fetch(geojsonUrl);
@@ -583,3 +583,4 @@ async function togglePolygons() {
     loadingElement.innerHTML = "Ошибка: " + err.message;
   }
 })();
+
